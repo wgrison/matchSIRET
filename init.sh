@@ -4,7 +4,7 @@ WORK_DIR=/home/onyxia/work
 CLONE_DIR=${WORK_DIR}/matchSIRET
 
 # Clone course repository
-REPO_URL=git@github.com:etalab/matchSIRET.git
+REPO_URL=git@github.com:wgrison/matchSIRET.git
 git clone --depth 1 $REPO_URL $CLONE_DIR
 
 # Put RFPE data in the working dir
